@@ -1,0 +1,19 @@
+
+namespace parcialaquino
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+			double dolarblue;
+			double euros;
+			double pesos;
+			Console.WriteLine("Ingrese pesos");
+			pesos = Double.Parse(Console.ReadLine());
+			dolarblue = pesos / 230;
+			euros = dolarblue / 1.17;
+			Console.WriteLine("Cantidad de dolares que puedo comprar con pesos: " + dolarblue);
+			Console.WriteLine("Cantidad de euros que puedo comprar con pesos : " + euros);
+		}
+    }
+}

@@ -1,0 +1,14 @@
+Proceso parcialaquino
+	Definir pesos, euros, dolarblue como real;
+	Escribir "Ingrese pesos";
+	Leer pesos;
+	
+	
+	dolarblue<-pesos/230;
+	euros<-dolarblue/1.17;
+	
+	
+	Escribir "Cantidad de dolares que puedo comprar con pesos: ",dolarblue;
+	Escribir "Cantidad de euros que puedo comprar con pesos : ",euros;
+	
+FinProceso
